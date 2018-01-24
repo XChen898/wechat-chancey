@@ -4,7 +4,7 @@ var userParameterSet = require("../service/userParameterSet.js");
 var getXMLNodeValue = require("../tool/xmlparse.js");
 var formattedValue = require("../tool/formatValue.js");
 var replyMessage = require("../tool/replyMessage.js");
-
+var express = require('express');
 var jsSHA = require('jssha');
 
 module.exports = function (app) {
